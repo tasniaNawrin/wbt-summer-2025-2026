@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: rgb(115, 104, 162);
+    text-align: center;
+}
+
+#navbar {
+    height: 70px;
+    background-color: rgb(115, 104, 162);
+}
+
+#b1 {
+    background-color: rgb(159, 153, 153);
+    height: 50px;
+    width: 80px;
+}
+
+a {
+    margin-left: 200px;
+    text-decoration: none;
+    font-size: large;
+    color: rgb(248, 244, 244);
+}
+
+.welcome {
+    text-align: center;
+    line-height: normal;
+}
+
+#descrip {
+    margin-left: 500px;
+    max-width: 500px;
+    border: 2px solid #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Science {
+    display: inline-block;
+    max-width: 200px;
+    border: 2px solid #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.course {
+    text-align: center;
+}
