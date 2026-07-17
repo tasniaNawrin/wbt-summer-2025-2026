@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIUB Club Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>University Club Registration Form</h2>
+
+        <form id="clubForm">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" placeholder="i.e. Mia">
+            <small id="fnameError" class="error"></small>
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" placeholder="i.e. Davis">
+            <small id="lnameError" class="error"></small>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="i.e. miadavis@gmail.com">
+            <small id="emailError" class="error"></small>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter valid password">
+            <small id="passwordError" class="error"></small>
+
+
+            <label>Gender</label>
+            <div class="radio-group">
+
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+
+            </div>
+            <small id="genderError" class="error"></small>
+
+            <label>Interested Clubs</label>
+            <div class="checkbox-group">
+
+                <input type="checkbox" id="computer" name="clubs" value="Computer">
+                <label for="computer">Computer</label>
+
+                <input type="checkbox" id="photography" name="clubs" value="Photography">
+                <label for="photography">Photography</label>
+
+                <input type="checkbox" id="research" name="clubs" value="Research">
+                <label for="research">Research</label>
+
+                <input type="checkbox" id="drama" name="clubs" value="Drama">
+                <label for="drama">Drama</label>
+
+                <input type="checkbox" id="chess" name="clubs" value="Chess">
+                <label for="chess">Chess</label>
+
+                <input type="checkbox" id="english" name="clubs" value="English">
+                <label for="english">English</label>
+
+            </div>
+            <small id="clubsError" class="error"></small>
+
+            <label for="category">Club Category</label>
+            <select id="category">
+                <option value="">-- Select Club Category --</option>
+                <option value="Academic">Academic</option>
+                <option value="Cultural">Cultural</option>
+                <option value="Performance">Performance</option>
+                <option value="Sports">Sports</option>
+            </select>
+            <small id="categoryError" class="error"></small>
+
+
+            <label for="whyjoin">Why do you want to join?</label>
+            <textarea id="whyjoin" rows="4"
+                placeholder="Explain the reasons those influenced you to join the clubs"></textarea>
+            <small id="whyjoinError" class="error"></small>
+
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
